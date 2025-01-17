@@ -1,6 +1,6 @@
 # Gaia Astrometric Exoplanet Orbits Detection
 
-This repository contains the code accompanying the paper _[Machine learning-based identification of Gaia astrometric exoplanet orbits](https://arxiv.org/pdf/2404.09350v1)_.
+This repository contains the code and data accompanying the paper _[Machine learning-based identification of Gaia astrometric exoplanet orbits](https://ui.adsabs.harvard.edu/abs/2025MNRAS.tmp...25S/abstract)_.
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -22,7 +22,6 @@ This repository contains the code and resources used to reproduce the results fr
 
 ## Folder Structure
 
-- The folder `paper_notebooks` contains Jupyter notebooks used for recreating the dataset and analysing the exoplanet candidates found during the research.
 - The module `gaia_ad` implements the anomaly detection methods used.
 - `compute_candidates.py`: Main script to compute and analyze candidate orbits using different classifiers and datasets.
 - `compute_shap.py`: Contains functions to compute SHAP values for feature importance analysis.
@@ -49,9 +48,7 @@ mamba activate gaia_exorbitml
 
 ### Setting up the Dataset
 
-The dataset needed to reproduce the results can be downloaded from [here](TODO). Extract the data into a folder called `data` in the repository root.
-
-The version used in the paper is 0.0.6 and has to be put into data under `data/0.0.6/` by default.
+The dataset needed to reproduce the results is included in this repository under `data/0.0.6/`.
 
 ### Reproduce results
 
@@ -80,6 +77,8 @@ Results will be saved in `results/`. In particular there will be the following f
 - **`split_index_<model>_<dataset>_label_for_better_ssc=<value>.csv`**: Stores the cross-validation folds used during model training, ensuring reproducibility of the results.
 
 Paper figures can be reproduced using the notebook `create_paper_figures.ipynb` and are saved in the `paper/` folder.
+
+Paper figures 3 can be reproduced by running the `generate_paper_figure3.py` script and are save in the `results/figures` folder.
 
 ## Contact
 
