@@ -1,3 +1,11 @@
+[//]: # (Copyright &#40;c&#41; European Space Agency, 2025.)
+[//]: # ()
+[//]: # (This file is subject to the terms and conditions defined in file 'LICENCE.txt', which)
+[//]: # (is part of this source code package. No part of the package, including)
+[//]: # (this file, may be copied, modified, propagated, or distributed except according to)
+[//]: # (the terms contained in the file ‘LICENCE.txt’.)
+[![License: ESA permissive](https://img.shields.io/badge/ESA%20Public%20License-Permissive-blue.svg)](https://github.com/esa/gaia-bhthree/blob/main/LICENSE.txt)
+
 # Gaia Astrometric Exoplanet Orbits Detection
 
 This repository contains the code and data accompanying the paper _[Machine learning-based identification of Gaia astrometric exoplanet orbits](https://ui.adsabs.harvard.edu/abs/2025MNRAS.tmp...25S/abstract)_.
