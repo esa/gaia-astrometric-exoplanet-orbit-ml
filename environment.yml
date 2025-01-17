@@ -1,4 +1,4 @@
-name: gaia_ad
+name: gaia_exorbitml
 channels:
   - conda-forge
   - microsoft

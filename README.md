@@ -44,7 +44,7 @@ We recommend using [mamba](https://mamba.readthedocs.io/en/latest/) to manage de
 git clone <TODO>
 cd <TODO>
 mamba env create -f environment.yml
-mamba activate gaia_ad
+mamba activate gaia_exorbitml
 ```
 
 ### Setting up the Dataset
