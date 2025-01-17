@@ -4,7 +4,7 @@
 [//]: # (is part of this source code package. No part of the package, including)
 [//]: # (this file, may be copied, modified, propagated, or distributed except according to)
 [//]: # (the terms contained in the file ‘LICENCE.txt’.)
-[![License: ESA permissive](https://img.shields.io/badge/ESA%20Public%20License-Permissive-blue.svg)](https://github.com/esa/gaia-bhthree/blob/main/LICENSE.txt)
+[![License: ESA permissive](https://img.shields.io/badge/ESA%20Public%20License-Permissive-blue.svg)](https://github.com/esa/gaia-astrometric-exoplanet-orbit-ml/blob/main/LICENSE.txt)
 
 # Gaia Astrometric Exoplanet Orbits Detection
 
@@ -86,7 +86,7 @@ Results will be saved in `results/`. In particular there will be the following f
 
 Paper figures can be reproduced using the notebook `create_paper_figures.ipynb` and are saved in the `paper/` folder.
 
-Paper figures 3 can be reproduced by running the `generate_paper_figure3.py` script and are save in the `results/figures` folder.
+Paper figures 3 can be reproduced by running the `generate_paper_figure3.py` script and are saved in the `results/figures` folder.
 
 ## Contact
 
